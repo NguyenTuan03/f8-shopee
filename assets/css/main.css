@@ -675,10 +675,10 @@ i.fab.fa-facebook-square {
     background-color: var(--white-color);
     font-size: 1.3rem;
     border-radius: 30px;
-    height: 16px;
+    height: 20px;
     width: 21px;
     right: 0px;
-    top: 15px;
+    top: 12px;
     padding: 0px 4px;
     border: 1px solid var(--primary-color);
 }
