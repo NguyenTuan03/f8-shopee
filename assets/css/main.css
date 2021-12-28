@@ -1416,7 +1416,26 @@ i.fab.fa-facebook-square {
     text-transform: uppercase;
     font-weight: 700;
 }
+.footer__list-social {
+    list-style: none;
+    padding: 0;
+}
 
+.footer__list-social-item {
+    padding: 10px 12px;
+    padding-left: 25%;
+}
+
+.footer__list-social-icon {
+    width: 30px;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.footer__list-social-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
 .footer__list {
     list-style-type: none;
     padding: 0;
@@ -1461,6 +1480,7 @@ i.fab.fa-facebook-square {
 
 .footer__heading-wrap {
     display: flex;
+    margin-top: 24px;
 }
 
 .footer__heading-qr {
@@ -1483,8 +1503,12 @@ i.fab.fa-facebook-square {
     margin-left: 16px;
 }
 
+.footer__heading-app-link:nth-child(1) {
+    margin-top: 0;
+}
 .footer__heading-app-link {
-
+    display: block;
+    margin: 10px 8px;
 }
 
 .footer__heading-app-img {
